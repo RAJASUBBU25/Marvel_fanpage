@@ -129,7 +129,7 @@ header{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    background-image: url(../MARVEL_PAGE/Icons/back1.jpg);
+    background-image: url(back1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -635,7 +635,7 @@ td{
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    background-image: url(../MARVEL_PAGE/Icons/back.jpg);
+    background-image: url(back.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

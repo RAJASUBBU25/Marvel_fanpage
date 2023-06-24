@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.sb1{
+    display: grid;
+    grid-template-columns: 2;
+    height: 648px;
+    background-image: url(bgimage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 84% 100%;
+}
+
+.sb2{
+    grid-column: 1;
+}
+
+.sb3{
+    grid-column: 2;
+}
+
+.body1{
+    background-color: #24252A;
+}
+
+.nav_bar{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.nav_bar span{
+    padding-right: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #FFD89E;
+}
+
+.nav_bar span:hover{
+    color: goldenrod;
+}
+
+.h1{
+    font-size: 40px;
+    padding-left: 200px;
+    color: #FFA463;
+    font-family: 'Montez';
+}
+
+.img1{
+    padding-top: 25px;
+    padding-left: 330px;
+    height: 50px;
+}
+
+.hero_img{
+    margin-top: 70px;
+    height: 400px;
+}
+
+.line{
+    margin-top: 50px;
+    margin-left: 200px;
+    color: #FFD89E;   
+}
+
+.p1{
+    margin-top: 40px;
+    font-size: 55px;
+    padding-left: 200px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.p2{
+    font-size: 55px;
+    padding-left: 200px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.p3{
+    padding-left: 200px;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+.p4{
+    padding-left: 200px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+.p5{
+    padding-left: 200px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+.click{
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    margin-left: 200px;
+    background-color: #C73B0A;
+    color: #FFFFFF;
+    font-family: "Montez";
+    font-size: 25px;
+    border-radius: 30px;
+    border: none;
+}
+
+.click:hover{
+    background-color: rgba(199, 59, 10, 0.7);
+}
